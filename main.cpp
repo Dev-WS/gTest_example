@@ -13,6 +13,12 @@ TEST(testSUM, mySecondTest)
     EXPECT_EQ(1000, addTwoValues(1200.0, -2100));
 }
 
+TEST(stringTest, myThirdTest) {
+
+    EXPECT_STRNE("test", "testt");
+
+}
+
 int main(){
 
     std::cout<< "Doing tests" << std::endl;
